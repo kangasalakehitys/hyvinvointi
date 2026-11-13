@@ -1,0 +1,1213 @@
+{
+  "_ohje": "Uusi Sotkanet-indikaattori: lisää rivi indicators-listaan (source: sotkanet, variants: [{label, id}]) ja aja npm run update. Uusi Excel-kategoria: lisää excelCategories-karttaan. better: lower = pienempi on parempi, higher = suurempi on parempi, null = ei arvotusta.",
+  "home": "Kangasala",
+  "homeIn": "Kangasalla",
+  "municipalities": [
+    "Kangasala",
+    "Lempäälä",
+    "Nokia",
+    "Orivesi",
+    "Pirkkala",
+    "Tampere",
+    "Vesilahti",
+    "Ylöjärvi"
+  ],
+  "references": [
+    "Pirkanmaa",
+    "Koko maa"
+  ],
+  "ownData": {
+    "url": "data/hyte_data_kangasala.xlsx",
+    "_url_ohje": "Voit vaihtaa osoitteeksi myös raw.githubusercontent.com-osoitteen, jolloin Excel luetaan suoraan GitHubista."
+  },
+  "categories": [
+    {
+      "id": "vaestorakenne",
+      "title": "Väestörakenne",
+      "icon": "users",
+      "image": "kaupunki-ilmakuva.jpg",
+      "photos": [
+        "areena.jpg"
+      ],
+      "intro": "Väestön määrä ja ikärakenne ovat hyvinvointityön lähtökohta: ne kertovat, kenelle palveluja suunnitellaan."
+    },
+    {
+      "id": "arjen-ymparistot",
+      "title": "Arjen ympäristöt",
+      "icon": "map",
+      "image": "pyorat.jpg",
+      "photos": [
+        "bussi.jpg",
+        "luontopolku.jpg"
+      ],
+      "intro": "Liikenneturvallisuus, joukkoliikenne sekä liikuntapaikat ja -reitit tekevät arjesta sujuvaa ja aktiivista."
+    },
+    {
+      "id": "turvallisuus",
+      "title": "Turvallisuus",
+      "icon": "shield",
+      "image": "leikkipuisto.jpg",
+      "photos": [
+        "lapset-leikki.jpg"
+      ],
+      "intro": "Turvallinen kasvuympäristö ja turvallinen asuinympäristö ovat hyvinvoinnin perusta."
+    },
+    {
+      "id": "vapaa-aika",
+      "title": "Vapaa-aika ja harrastaminen",
+      "icon": "music",
+      "image": "bandi.jpg",
+      "photos": [
+        "trampoliini.jpg",
+        "konsertti.jpg",
+        "kirjasto.jpg"
+      ],
+      "intro": "Nuorisotyö, harrastamisen malli, kulttuuri- ja liikuntapalvelut sekä järjestöt tarjoavat mahdollisuuksia mielekkääseen vapaa-aikaan."
+    },
+    {
+      "id": "elintavat",
+      "title": "Elintavat",
+      "icon": "activity",
+      "image": "kouluruoka.jpg",
+      "photos": [
+        "luistimet.jpg",
+        "uimahalli.jpg"
+      ],
+      "intro": "Liikunta, ravinto ja uni ovat terveyden kulmakiviä kaikissa ikäryhmissä."
+    },
+    {
+      "id": "mielen-hyvinvointi",
+      "title": "Mielen hyvinvointi",
+      "icon": "heart",
+      "image": "maalaus.jpg",
+      "photos": [
+        "kasityo.jpg"
+      ],
+      "intro": "Mielen hyvinvointia seurataan lääkekorvausten ja nuorten oman kokemuksen kautta."
+    },
+    {
+      "id": "elamanlaatu",
+      "title": "Elämänlaatu",
+      "icon": "sun",
+      "image": "uimari.jpg",
+      "photos": [
+        "auringonkukat.jpg"
+      ],
+      "intro": "Tyytyväisyys elämään ja koettu elämänlaatu kokoavat yhteen monet hyvinvoinnin osatekijät."
+    },
+    {
+      "id": "paihteet-nuoret",
+      "title": "Päihteidenkäyttö, nuoret",
+      "icon": "alert",
+      "image": "harju.jpg",
+      "photos": [
+        "nupa.jpg"
+      ],
+      "intro": "Nuorten päihteiden, nikotiinituotteiden ja rahapelien käyttöä seurataan Kouluterveyskyselyn avulla."
+    },
+    {
+      "id": "paihteet-aikuiset",
+      "title": "Päihteiden käyttö, aikuiset",
+      "icon": "alert",
+      "image": "luontopolku.jpg",
+      "photos": [],
+      "intro": "Aikuisten tupakoinnin ja alkoholinkäytön tiedot ovat THL:n Terveytemme-tutkimuksesta. Kuntatieto näytetään, kun se on saatavilla, muuten Pirkanmaan taso."
+    },
+    {
+      "id": "hyte-kerroin",
+      "title": "Hyte-kerroin",
+      "icon": "award",
+      "image": "uimahalli-ystavat.jpg",
+      "photos": [
+        "konsertti.jpg"
+      ],
+      "intro": "HYTE-kerroin eli hyvinvoinnin ja terveyden edistämisen valtionosuuden lisäosa ohjaa kuntien hyvinvointityötä. Se koostuu toimintaa mittaavista prosessi-indikaattoreista ja väestön muutosta mittaavista tulosindikaattoreista."
+    },
+    {
+      "id": "teaviisari",
+      "title": "TEAviisari",
+      "icon": "compass",
+      "image": "teatteri.jpg",
+      "photos": [],
+      "intro": "TEAviisari mittaa kuntien terveydenedistämisaktiivisuutta seitsemällä sektorilla. Osa sektoreista päivittyy parillisina, osa parittomina vuosina. Pisteet ovat 0–100."
+    }
+  ],
+  "excelCategories": {
+    "Liikenne ja liikenneturvallisuus": "arjen-ymparistot",
+    "Liikuntapaikat ja -reitit": "arjen-ymparistot",
+    "Nuorisotyö": "vapaa-aika",
+    "Harrastamisen malli": "vapaa-aika",
+    "Koulujen kerhotoiminta": "vapaa-aika",
+    "Kulttuuripalvelut ja vapaasivistystyö": "vapaa-aika",
+    "Liikuntapalvelut": "vapaa-aika",
+    "3. Sektorin avustukset": "vapaa-aika",
+    "Päihteidenkäyttö, nuoret": "paihteet-nuoret"
+  },
+  "excelBetter": {
+    "Tieliikenneonnettomuuksissa loukkaantuneet": "lower",
+    "Tieliikenneonnettomuuksissa vakavasti loukkaantuneet": "lower",
+    "Tieliikenneonnettomuuksissa kuolleet": "lower",
+    "Käyttää nikotiinipusseja nykyisin": "lower"
+  },
+  "indicators": [
+    {
+      "id": "rikokset-henki",
+      "category": "turvallisuus",
+      "section": "Rikokset",
+      "source": "sotkanet",
+      "better": "lower",
+      "title": "Poliisin tietoon tulleet henkeen ja terveyteen kohdistuneet rikokset / 1 000 asukasta",
+      "variants": [
+        {
+          "label": "Kaikki",
+          "id": 3113
+        }
+      ]
+    },
+    {
+      "id": "rikokset-huume",
+      "category": "turvallisuus",
+      "section": "Rikokset",
+      "source": "sotkanet",
+      "better": "lower",
+      "title": "Poliisin tietoon tulleet kaikki huumausainerikokset / 1 000 asukasta",
+      "variants": [
+        {
+          "label": "Kaikki",
+          "id": 3093
+        }
+      ]
+    },
+    {
+      "id": "rikokset-omaisuus",
+      "category": "turvallisuus",
+      "section": "Rikokset",
+      "source": "sotkanet",
+      "better": "lower",
+      "title": "Poliisin tietoon tulleet omaisuusrikokset / 1 000 asukasta",
+      "variants": [
+        {
+          "label": "Kaikki",
+          "id": 3114
+        }
+      ]
+    },
+    {
+      "id": "tapaturmat-kaatumiset",
+      "category": "turvallisuus",
+      "section": "Tapaturmat",
+      "source": "sotkanet",
+      "better": "lower",
+      "title": "Kaatumisiin ja putoamisiin liittyvät hoitojaksot 65 vuotta täyttäneillä / 10 000 vastaavan ikäistä",
+      "variants": [
+        {
+          "label": "65+",
+          "id": 3959
+        }
+      ]
+    },
+    {
+      "id": "tapaturmat-koti",
+      "category": "turvallisuus",
+      "section": "Tapaturmat",
+      "source": "sotkanet",
+      "better": "lower",
+      "title": "Koti- ja vapaa-ajan tapaturmiin liittyvät hoitojaksot / 10 000 asukasta",
+      "variants": [
+        {
+          "label": "Kaikki",
+          "id": 3952
+        }
+      ]
+    },
+    {
+      "id": "seksuaalinen-ahdistelu",
+      "category": "turvallisuus",
+      "section": "Kouluterveyskysely",
+      "source": "sotkanet",
+      "better": "lower",
+      "unit": "%",
+      "title": "Kokenut häiritsevää seksuaalista ehdottelua tai ahdistelua vuoden aikana, %",
+      "variants": [
+        {
+          "label": "8.–9. lk",
+          "id": 4938
+        },
+        {
+          "label": "Lukio",
+          "id": 4939
+        },
+        {
+          "label": "Ammatillinen",
+          "id": 4940
+        }
+      ]
+    },
+    {
+      "id": "vanhempien-vakivalta",
+      "category": "turvallisuus",
+      "section": "Kouluterveyskysely",
+      "source": "sotkanet",
+      "better": "lower",
+      "unit": "%",
+      "title": "Kokenut vanhempien fyysistä väkivaltaa vuoden aikana, %",
+      "variants": [
+        {
+          "label": "4.–5. lk",
+          "id": 4890
+        },
+        {
+          "label": "8.–9. lk",
+          "id": 4956
+        },
+        {
+          "label": "Lukio",
+          "id": 4957
+        },
+        {
+          "label": "Ammatillinen",
+          "id": 4958
+        }
+      ]
+    },
+    {
+      "id": "harrastaa-viikoittain",
+      "category": "vapaa-aika",
+      "section": "Harrastaminen",
+      "source": "sotkanet",
+      "better": "higher",
+      "unit": "%",
+      "title": "Harrastaa jotakin ainakin kerran viikossa, %",
+      "variants": [
+        {
+          "label": "4.–5. lk",
+          "id": 27
+        },
+        {
+          "label": "8.–9. lk",
+          "id": 24
+        },
+        {
+          "label": "Lukio",
+          "id": 25
+        },
+        {
+          "label": "Ammatillinen",
+          "id": 26
+        }
+      ]
+    },
+    {
+      "id": "heikko-toimintakyky",
+      "category": "elintavat",
+      "section": "Liikunta ja toimintakyky",
+      "source": "sotkanet",
+      "better": "lower",
+      "unit": "%",
+      "title": "Heikko fyysinen toimintakyky (MOVE!), %",
+      "variants": [
+        {
+          "label": "5. lk",
+          "id": 5477
+        },
+        {
+          "label": "8. lk",
+          "id": 5478
+        }
+      ]
+    },
+    {
+      "id": "liikunta-max1h",
+      "category": "elintavat",
+      "section": "Liikunta ja toimintakyky",
+      "source": "sotkanet",
+      "better": "lower",
+      "unit": "%",
+      "title": "Harrastaa hengästyttävää liikuntaa vapaa-ajalla korkeintaan 1 h viikossa, %",
+      "variants": [
+        {
+          "label": "8.–9. lk",
+          "id": 3905
+        },
+        {
+          "label": "Lukio",
+          "id": 3924
+        },
+        {
+          "label": "Ammatillinen",
+          "id": 3939
+        }
+      ]
+    },
+    {
+      "id": "liian-vahan-liikkuvat",
+      "category": "elintavat",
+      "section": "Liikunta ja toimintakyky",
+      "source": "sotkanet",
+      "better": "lower",
+      "unit": "%",
+      "adult": true,
+      "title": "Terveysliikuntasuosituksen mukaan liian vähän liikkuvien osuus (%)",
+      "variants": [
+        {
+          "label": "20–64-v.",
+          "id": 5528
+        },
+        {
+          "label": "65+",
+          "id": 5529
+        }
+      ]
+    },
+    {
+      "id": "koululounas",
+      "category": "elintavat",
+      "section": "Ravinto ja uni",
+      "source": "sotkanet",
+      "better": "lower",
+      "unit": "%",
+      "title": "Ei syö koululounasta päivittäin, %",
+      "variants": [
+        {
+          "label": "8.–9. lk",
+          "id": 3904
+        },
+        {
+          "label": "Lukio",
+          "id": 3923
+        },
+        {
+          "label": "Ammatillinen",
+          "id": 3938
+        }
+      ]
+    },
+    {
+      "id": "uni-8h",
+      "category": "elintavat",
+      "section": "Ravinto ja uni",
+      "source": "sotkanet",
+      "better": "higher",
+      "unit": "%",
+      "transform": "100-x",
+      "title": "Nukkuu arkisin vähintään 8 tuntia, %",
+      "note": "Laskettu Sotkanetin indikaattorista \"Nukkuu arkisin alle 8 tuntia\" (100 − arvo).",
+      "variants": [
+        {
+          "label": "8.–9. lk",
+          "id": 3725
+        },
+        {
+          "label": "Lukio",
+          "id": 3726
+        },
+        {
+          "label": "Ammatillinen",
+          "id": 3727
+        }
+      ]
+    },
+    {
+      "id": "depressiolaakkeet",
+      "category": "mielen-hyvinvointi",
+      "section": "Depressiolääkkeet",
+      "source": "sotkanet",
+      "better": "lower",
+      "unit": "%",
+      "title": "Depressiolääkkeistä korvausta saaneet, % vastaavan ikäisestä väestöstä",
+      "variants": [
+        {
+          "label": "18–24-v.",
+          "id": 2355
+        },
+        {
+          "label": "25–64-v.",
+          "id": 2356
+        },
+        {
+          "label": "65+",
+          "id": 690
+        }
+      ]
+    },
+    {
+      "id": "masennusoireilu",
+      "category": "mielen-hyvinvointi",
+      "section": "Kouluterveyskysely",
+      "source": "sotkanet",
+      "better": "lower",
+      "unit": "%",
+      "title": "Vähintään kaksi viikkoa kestänyt masennusoireilu, %",
+      "variants": [
+        {
+          "label": "8.–9. lk",
+          "id": 4855
+        },
+        {
+          "label": "Lukio",
+          "id": 4856
+        },
+        {
+          "label": "Ammatillinen",
+          "id": 4857
+        }
+      ]
+    },
+    {
+      "id": "tyytyvainen-elamaan",
+      "category": "elamanlaatu",
+      "section": "Kouluterveyskysely",
+      "source": "sotkanet",
+      "better": "higher",
+      "unit": "%",
+      "title": "Tyytyväinen elämäänsä tällä hetkellä, %",
+      "variants": [
+        {
+          "label": "4.–5. lk",
+          "id": 4811
+        },
+        {
+          "label": "8.–9. lk",
+          "id": 4700
+        },
+        {
+          "label": "Lukio",
+          "id": 4702
+        },
+        {
+          "label": "Ammatillinen",
+          "id": 4701
+        }
+      ]
+    },
+    {
+      "id": "eurohis",
+      "category": "elamanlaatu",
+      "section": "Aikuiset",
+      "source": "sotkanet",
+      "better": "higher",
+      "unit": "%",
+      "adult": true,
+      "title": "Elämänlaatunsa (EuroHIS-8) hyväksi tuntevien osuus (%)",
+      "variants": [
+        {
+          "label": "20–64-v.",
+          "id": 4271
+        },
+        {
+          "label": "65+",
+          "id": 4272
+        }
+      ]
+    },
+    {
+      "id": "huolta-herattava",
+      "category": "paihteet-nuoret",
+      "section": "Kouluterveyskysely",
+      "source": "sotkanet",
+      "better": "lower",
+      "unit": "%",
+      "title": "Huolta herättävää päihteiden tai tupakka- ja nikotiinituotteiden käyttöä tai rahapelaamista, %",
+      "variants": [
+        {
+          "label": "8.–9. lk",
+          "id": 5362
+        },
+        {
+          "label": "Lukio",
+          "id": 5363
+        },
+        {
+          "label": "Ammatillinen",
+          "id": 5364
+        }
+      ]
+    },
+    {
+      "id": "rahapelit",
+      "category": "paihteet-nuoret",
+      "section": "Kouluterveyskysely",
+      "source": "sotkanet",
+      "better": "lower",
+      "unit": "%",
+      "title": "Pelaa rahapelejä viikoittain, %",
+      "variants": [
+        {
+          "label": "8.–9. lk",
+          "id": 3146
+        },
+        {
+          "label": "Lukio",
+          "id": 3151
+        },
+        {
+          "label": "Ammatillinen",
+          "id": 3156
+        }
+      ]
+    },
+    {
+      "id": "nikotiini-paivittain",
+      "category": "paihteet-nuoret",
+      "section": "Kouluterveyskysely",
+      "source": "sotkanet",
+      "better": "lower",
+      "unit": "%",
+      "title": "Käyttää päivittäin tupakkaa, sähkötupakkaa, nuuskaa tai nikotiinipusseja, %",
+      "variants": [
+        {
+          "label": "8.–9. lk",
+          "id": 4730
+        },
+        {
+          "label": "Lukio",
+          "id": 4732
+        },
+        {
+          "label": "Ammatillinen",
+          "id": 4731
+        }
+      ]
+    },
+    {
+      "id": "tupakointi",
+      "category": "paihteet-aikuiset",
+      "section": "Terveytemme-tutkimus",
+      "source": "sotkanet",
+      "better": "lower",
+      "unit": "%",
+      "adult": true,
+      "title": "Päivittäin tupakoivien osuus (%)",
+      "variants": [
+        {
+          "label": "20–64-v.",
+          "id": 4405
+        },
+        {
+          "label": "65+",
+          "id": 4406
+        }
+      ]
+    },
+    {
+      "id": "humala",
+      "category": "paihteet-aikuiset",
+      "section": "Terveytemme-tutkimus",
+      "source": "sotkanet",
+      "better": "lower",
+      "unit": "%",
+      "adult": true,
+      "title": "Alkoholia humalahakuisesti käyttävien osuus (AUDIT-1k) (%)",
+      "variants": [
+        {
+          "label": "20–64-v.",
+          "id": 4419
+        },
+        {
+          "label": "65+",
+          "id": 4420
+        }
+      ]
+    },
+    {
+      "id": "alkoholi-liikaa",
+      "category": "paihteet-aikuiset",
+      "section": "Terveytemme-tutkimus",
+      "source": "sotkanet",
+      "better": "lower",
+      "unit": "%",
+      "adult": true,
+      "title": "Alkoholia liikaa käyttävien osuus (AUDIT-C) (%)",
+      "variants": [
+        {
+          "label": "20–64-v.",
+          "id": 4412
+        },
+        {
+          "label": "65+",
+          "id": 4413
+        }
+      ]
+    },
+    {
+      "id": "hyte-kerroin-0-100",
+      "category": "hyte-kerroin",
+      "section": "Tuloslaskelma",
+      "kpi": true,
+      "source": "sotkanet",
+      "better": "higher",
+      "title": "HYTE-kerroin, 0–100",
+      "variants": [
+        {
+          "label": "",
+          "id": 5340
+        }
+      ]
+    },
+    {
+      "id": "hyte-tulos-ka",
+      "category": "hyte-kerroin",
+      "section": "Tuloslaskelma",
+      "kpi": true,
+      "source": "sotkanet",
+      "better": "higher",
+      "title": "Tulosindikaattoreiden keskiarvo (HYTE-kerroin)",
+      "variants": [
+        {
+          "label": "",
+          "id": 5338
+        }
+      ]
+    },
+    {
+      "id": "hyte-prosessi-ka",
+      "category": "hyte-kerroin",
+      "section": "Tuloslaskelma",
+      "kpi": true,
+      "source": "sotkanet",
+      "better": "higher",
+      "title": "Prosessi-indikaattoreiden keskiarvo (HYTE-kerroin)",
+      "variants": [
+        {
+          "label": "",
+          "id": 5339
+        }
+      ]
+    },
+    {
+      "id": "hyte-eur-asukas",
+      "category": "hyte-kerroin",
+      "section": "Tuloslaskelma",
+      "kpi": true,
+      "source": "sotkanet",
+      "better": "higher",
+      "unit": "€",
+      "title": "HYTE-kerroin euroa / asukas",
+      "variants": [
+        {
+          "label": "",
+          "id": 5341
+        }
+      ]
+    },
+    {
+      "id": "hyte-1000eur",
+      "category": "hyte-kerroin",
+      "section": "Tuloslaskelma",
+      "kpi": true,
+      "source": "sotkanet",
+      "better": "higher",
+      "noRegionalTotal": true,
+      "title": "HYTE-kerroin, 1 000 euroa",
+      "variants": [
+        {
+          "label": "",
+          "id": 5355
+        }
+      ]
+    },
+    {
+      "id": "hyte-o-terveys",
+      "category": "hyte-kerroin",
+      "section": "Tulosindikaattorit (alkuperäiset)",
+      "source": "sotkanet",
+      "better": "lower",
+      "unit": "%",
+      "title": "Kokee terveydentilansa keskinkertaiseksi tai huonoksi, % 8. ja 9. luokan oppilaista",
+      "variants": [
+        {
+          "label": "",
+          "id": 286
+        }
+      ]
+    },
+    {
+      "id": "hyte-o-ylipaino",
+      "category": "hyte-kerroin",
+      "section": "Tulosindikaattorit (alkuperäiset)",
+      "source": "sotkanet",
+      "better": "lower",
+      "unit": "%",
+      "title": "Ylipaino, % 8. ja 9. luokan oppilaista (-2023)",
+      "variants": [
+        {
+          "label": "",
+          "id": 3906
+        }
+      ]
+    },
+    {
+      "id": "hyte-o-koulutus",
+      "category": "hyte-kerroin",
+      "section": "Tulosindikaattorit (alkuperäiset)",
+      "source": "sotkanet",
+      "better": "lower",
+      "unit": "%",
+      "title": "Koulutuksen ulkopuolelle jääneet 17–24-vuotiaat, % vastaavan ikäisestä väestöstä",
+      "variants": [
+        {
+          "label": "",
+          "id": 3219
+        }
+      ]
+    },
+    {
+      "id": "hyte-o-toimeentulo",
+      "category": "hyte-kerroin",
+      "section": "Tulosindikaattorit (alkuperäiset)",
+      "source": "sotkanet",
+      "better": "lower",
+      "unit": "%",
+      "title": "Toimeentulotukea pitkäaikaisesti saaneet 25–64-vuotiaat, % vastaavan ikäisestä väestöstä",
+      "variants": [
+        {
+          "label": "",
+          "id": 234
+        }
+      ]
+    },
+    {
+      "id": "hyte-o-tyokyvyttomyys",
+      "category": "hyte-kerroin",
+      "section": "Tulosindikaattorit (alkuperäiset)",
+      "source": "sotkanet",
+      "better": "lower",
+      "unit": "%",
+      "title": "Työkyvyttömyyseläkettä saavat 25–64-vuotiaat, % vastaavan ikäisestä väestöstä",
+      "variants": [
+        {
+          "label": "",
+          "id": 306
+        }
+      ]
+    },
+    {
+      "id": "hyte-o-kaatumiset",
+      "category": "hyte-kerroin",
+      "section": "Tulosindikaattorit (alkuperäiset)",
+      "source": "sotkanet",
+      "better": "lower",
+      "title": "Kaatumisiin ja putoamisiin liittyvät hoitojaksot 65 vuotta täyttäneillä / 10 000 vastaavan ikäistä",
+      "variants": [
+        {
+          "label": "",
+          "id": 3959
+        }
+      ]
+    },
+    {
+      "id": "hyte-s-terveys",
+      "category": "hyte-kerroin",
+      "section": "Tulosindikaattorit (skaalatut, pisteet 0–100)",
+      "source": "sotkanet",
+      "better": "higher",
+      "title": "Kokee terveydentilansa keskinkertaiseksi tai huonoksi, skaalattu",
+      "variants": [
+        {
+          "label": "",
+          "id": 5301
+        }
+      ]
+    },
+    {
+      "id": "hyte-s-ylipaino",
+      "category": "hyte-kerroin",
+      "section": "Tulosindikaattorit (skaalatut, pisteet 0–100)",
+      "source": "sotkanet",
+      "better": "higher",
+      "title": "Ylipaino, skaalattu",
+      "variants": [
+        {
+          "label": "",
+          "id": 5303
+        }
+      ]
+    },
+    {
+      "id": "hyte-s-koulutus",
+      "category": "hyte-kerroin",
+      "section": "Tulosindikaattorit (skaalatut, pisteet 0–100)",
+      "source": "sotkanet",
+      "better": "higher",
+      "title": "Koulutuksen ulkopuolelle jääneet 17–24-vuotiaat, skaalattu",
+      "variants": [
+        {
+          "label": "",
+          "id": 5304
+        }
+      ]
+    },
+    {
+      "id": "hyte-s-toimeentulo",
+      "category": "hyte-kerroin",
+      "section": "Tulosindikaattorit (skaalatut, pisteet 0–100)",
+      "source": "sotkanet",
+      "better": "higher",
+      "title": "Toimeentulotukea pitkäaikaisesti saaneet 25–64-vuotiaat, skaalattu",
+      "variants": [
+        {
+          "label": "",
+          "id": 5306
+        }
+      ]
+    },
+    {
+      "id": "hyte-s-tyokyvyttomyys",
+      "category": "hyte-kerroin",
+      "section": "Tulosindikaattorit (skaalatut, pisteet 0–100)",
+      "source": "sotkanet",
+      "better": "higher",
+      "title": "Työkyvyttömyyseläkettä saavat 25–64-vuotiaat, skaalattu",
+      "variants": [
+        {
+          "label": "",
+          "id": 5307
+        }
+      ]
+    },
+    {
+      "id": "hyte-s-kaatumiset",
+      "category": "hyte-kerroin",
+      "section": "Tulosindikaattorit (skaalatut, pisteet 0–100)",
+      "source": "sotkanet",
+      "better": "higher",
+      "title": "Kaatumisiin ja putoamisiin liittyvät hoitojaksot 65 vuotta täyttäneillä, skaalattu",
+      "variants": [
+        {
+          "label": "",
+          "id": 5308
+        }
+      ]
+    },
+    {
+      "id": "hyte-p-5317",
+      "category": "hyte-kerroin",
+      "section": "Prosessi-indikaattorit",
+      "process": true,
+      "source": "sotkanet",
+      "better": "higher",
+      "variants": [
+        {
+          "label": "",
+          "id": 5317
+        }
+      ],
+      "title": "Koulussa noudatetaan Valtion ravitsemusneuvottelukunnan kouluruokailusuositusta koululounaan ja välipalojen järjestämisessä"
+    },
+    {
+      "id": "hyte-p-5316",
+      "category": "hyte-kerroin",
+      "section": "Prosessi-indikaattorit",
+      "process": true,
+      "source": "sotkanet",
+      "better": "higher",
+      "variants": [
+        {
+          "label": "",
+          "id": 5316
+        }
+      ],
+      "title": "Koulussa on pitkät liikuntavälitunnit"
+    },
+    {
+      "id": "hyte-p-5309",
+      "category": "hyte-kerroin",
+      "section": "Prosessi-indikaattorit",
+      "process": true,
+      "source": "sotkanet",
+      "better": "higher",
+      "variants": [
+        {
+          "label": "",
+          "id": 5309
+        }
+      ],
+      "title": "Kouluympäristön terveellisyyden ja turvallisuuden sekä kouluyhteisön hyvinvoinnin edistämisen tarkastus"
+    },
+    {
+      "id": "hyte-p-5335",
+      "category": "hyte-kerroin",
+      "section": "Prosessi-indikaattorit",
+      "process": true,
+      "source": "sotkanet",
+      "better": "higher",
+      "variants": [
+        {
+          "label": "",
+          "id": 5335
+        }
+      ],
+      "title": "Kunnan palvelujen suunnittelussa ja kehittämisessä hyödynnetään asukasraateja ja foorumeja"
+    },
+    {
+      "id": "hyte-p-5331",
+      "category": "hyte-kerroin",
+      "section": "Prosessi-indikaattorit",
+      "process": true,
+      "source": "sotkanet",
+      "better": "higher",
+      "variants": [
+        {
+          "label": "",
+          "id": 5331
+        }
+      ],
+      "title": "Talousarviossa ja -suunnitelmassa määritellään mittarit hyvinvoinnin ja terveyden edistämisen tavoitteiden seurantaan"
+    },
+    {
+      "id": "hyte-p-5330",
+      "category": "hyte-kerroin",
+      "section": "Prosessi-indikaattorit",
+      "process": true,
+      "source": "sotkanet",
+      "better": "higher",
+      "variants": [
+        {
+          "label": "",
+          "id": 5330
+        }
+      ],
+      "title": "Tarkastuslautakunnan arviointikertomuksessa arvioidaan hyvinvointi- ja terveystavoitteiden toteutuminen"
+    },
+    {
+      "id": "hyte-p-5327",
+      "category": "hyte-kerroin",
+      "section": "Prosessi-indikaattorit",
+      "process": true,
+      "source": "sotkanet",
+      "better": "higher",
+      "variants": [
+        {
+          "label": "",
+          "id": 5327
+        }
+      ],
+      "title": "Kohdennettuja liikkumisryhmiä liikuntaseuratoiminnan ulkopuolella oleville lapsille ja nuorille"
+    },
+    {
+      "id": "hyte-p-5333",
+      "category": "hyte-kerroin",
+      "section": "Prosessi-indikaattorit",
+      "process": true,
+      "source": "sotkanet",
+      "better": "higher",
+      "variants": [
+        {
+          "label": "",
+          "id": 5333
+        }
+      ],
+      "title": "Nimetty asiantuntija koordinoi hyvinvoinnin ja terveyden edistämistyötä"
+    },
+    {
+      "id": "hyte-p-5328",
+      "category": "hyte-kerroin",
+      "section": "Prosessi-indikaattorit",
+      "process": true,
+      "source": "sotkanet",
+      "better": "higher",
+      "variants": [
+        {
+          "label": "",
+          "id": 5328
+        }
+      ],
+      "title": "Liikunnan edistämistä käsittelevä poikkihallinnollinen työryhmä"
+    },
+    {
+      "id": "hyte-p-5321",
+      "category": "hyte-kerroin",
+      "section": "Prosessi-indikaattorit",
+      "process": true,
+      "source": "sotkanet",
+      "better": "higher",
+      "variants": [
+        {
+          "label": "",
+          "id": 5321
+        }
+      ],
+      "title": "Kunta kutsuu säännöllisesti koolle liikuntaseurojen ja yhdistysten yhteiskokouksen"
+    },
+    {
+      "id": "hyte-p-3984",
+      "category": "hyte-kerroin",
+      "section": "Prosessi-indikaattorit",
+      "process": true,
+      "source": "sotkanet",
+      "better": "higher",
+      "variants": [
+        {
+          "label": "",
+          "id": 3984
+        }
+      ],
+      "title": "Kunta madaltaa kulttuuriin osallistumisen kynnystä"
+    },
+    {
+      "id": "hyte-p-5323",
+      "category": "hyte-kerroin",
+      "section": "Prosessi-indikaattorit",
+      "process": true,
+      "source": "sotkanet",
+      "better": "higher",
+      "variants": [
+        {
+          "label": "",
+          "id": 5323
+        }
+      ],
+      "title": "Lasten ja nuorten liikunta-aktiivisuutta raportoidaan vuosittain hyvinvointikertomuksessa"
+    },
+    {
+      "id": "hyte-p-5320",
+      "category": "hyte-kerroin",
+      "section": "Prosessi-indikaattorit",
+      "process": true,
+      "source": "sotkanet",
+      "better": "higher",
+      "variants": [
+        {
+          "label": "",
+          "id": 5320
+        }
+      ],
+      "title": "Liikunnan edistämisen viranhaltijat osallistuvat vaikutusten ennakkoarviointiin"
+    },
+    {
+      "id": "hyte-p-5313",
+      "category": "hyte-kerroin",
+      "section": "Prosessi-indikaattorit",
+      "process": true,
+      "source": "sotkanet",
+      "better": "higher",
+      "variants": [
+        {
+          "label": "",
+          "id": 5313
+        }
+      ],
+      "title": "Oppilaiden poissaolojen kokonaismäärää seurataan koko koulussa"
+    },
+    {
+      "id": "hyte-p-5336",
+      "category": "hyte-kerroin",
+      "section": "Prosessi-indikaattorit",
+      "process": true,
+      "source": "sotkanet",
+      "better": "higher",
+      "variants": [
+        {
+          "label": "",
+          "id": 5336
+        }
+      ],
+      "title": "Valtuustolle raportoidaan vuosittain väestön elintavoista ja niiden muutoksista"
+    },
+    {
+      "id": "tea-kaikki",
+      "category": "teaviisari",
+      "section": "TEAviisarin pisteet",
+      "tea": "Kaikki sektorit",
+      "source": "sotkanet",
+      "better": "higher",
+      "title": "Terveydenedistämisaktiivisuus kunnassa (kaikki sektorit), pistemäärä",
+      "variants": [
+        {
+          "label": "",
+          "id": 3675
+        }
+      ]
+    },
+    {
+      "id": "tea-kuntajohto",
+      "category": "teaviisari",
+      "section": "TEAviisarin pisteet",
+      "tea": "Kuntajohto",
+      "source": "sotkanet",
+      "better": "higher",
+      "title": "Hyvinvoinnin ja terveyden edistäminen kuntajohdossa, pistemäärä",
+      "variants": [
+        {
+          "label": "",
+          "id": 4072
+        }
+      ]
+    },
+    {
+      "id": "tea-perusopetus",
+      "category": "teaviisari",
+      "section": "TEAviisarin pisteet",
+      "tea": "Perusopetus",
+      "source": "sotkanet",
+      "better": "higher",
+      "title": "Hyvinvoinnin ja terveyden edistäminen peruskouluissa, pistemäärä",
+      "variants": [
+        {
+          "label": "",
+          "id": 4093
+        }
+      ]
+    },
+    {
+      "id": "tea-liikunta",
+      "category": "teaviisari",
+      "section": "TEAviisarin pisteet",
+      "tea": "Liikunta",
+      "source": "sotkanet",
+      "better": "higher",
+      "title": "Liikunnan edistäminen kunnissa, pistemäärä",
+      "variants": [
+        {
+          "label": "",
+          "id": 4094
+        }
+      ]
+    },
+    {
+      "id": "tea-kulttuuri",
+      "category": "teaviisari",
+      "section": "TEAviisarin pisteet",
+      "tea": "Kulttuuri",
+      "source": "sotkanet",
+      "better": "higher",
+      "title": "Kulttuurin edistäminen kunnissa, pistemäärä",
+      "variants": [
+        {
+          "label": "",
+          "id": 4224
+        }
+      ]
+    },
+    {
+      "id": "tea-lukio",
+      "category": "teaviisari",
+      "section": "TEAviisarin pisteet",
+      "tea": "Lukiokoulutus",
+      "source": "sotkanet",
+      "better": "higher",
+      "title": "Hyvinvoinnin ja terveyden edistäminen lukioissa, pistemäärä",
+      "variants": [
+        {
+          "label": "",
+          "id": 4074
+        }
+      ]
+    },
+    {
+      "id": "tea-ammatillinen",
+      "category": "teaviisari",
+      "section": "TEAviisarin pisteet",
+      "tea": "Ammatillinen koulutus",
+      "source": "sotkanet",
+      "better": "higher",
+      "title": "Hyvinvoinnin ja terveyden edistäminen ammatillisessa peruskoulutuksessa, pistemäärä",
+      "variants": [
+        {
+          "label": "",
+          "id": 4073
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "hyvinvointityo",
+  "private": true,
+  "type": "module",
+  "description": "Kangasalan hyvinvointityön indikaattoriraportti",
+  "scripts": {
+    "update": "node scripts/update.mjs",
+    "sotkanet": "node scripts/fetch-sotkanet.mjs",
+    "vaesto": "node scripts/fetch-statfin.mjs",
+    "serve": "npx --yes http-server -p 8080 -c-1 ."
+  }
+}

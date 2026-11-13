@@ -1,0 +1,10 @@
+node_modules/
+# Century Gothic on Monotypen lisensoima fontti, ei julkaista
+Fonts/*.ttf
+Documents/*.pdf
+Photos/
+*.tmp
+~$*
+
+# Sisäiset rajapintamuistiinpanot (sisältää istunto-/IP-tietoja)
+api.md

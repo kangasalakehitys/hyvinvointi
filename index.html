@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hyvinvointityön indikaattorit – Kangasalan kaupunki</title>
+  <meta name="description" content="Kangasalan kaupungin hyvinvoinnin ja terveyden edistämisen indikaattorit ja seutuvertailu.">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/brand/favicon-192.png">
+  <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Questrial&display=swap">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+  <header class="site-header" id="site-header"></header>
+  <nav class="catnav" id="catnav" aria-label="Indikaattorien yläluokat"></nav>
+  <section class="hero"><div class="hero-img" style="background-image:url('assets/img/auringonkukat.jpg')"></div><div class="wrap"><div class="hero-text">
+        <div class="eyebrow">Kangasalan kaupunki · Hyvinvointityön indikaattoriraportti</div>
+        <h1>Hyvinvoinnin ja terveyden edistäminen</h1>
+        <p>Kangasalan kaupunki luo edellytyksiä aktiiviselle ja hyvinvoivalle elämälle turvallisessa ja viihtyisässä elinympäristössä.</p>
+        <p>Tämä on hyvinvointityön indikaattoriraportti, joka kokoaa yhteen Kangasalan kaupungin hyvinvoinnin ja terveyden edistämisen keskeiset indikaattorit ja näiden seurannan.</p>
+        <div class="signature">Hyvinvointikoordinaattori<b>Marjut Hietaniemi</b></div>
+        <div class="btn-row"><a class="btn btn-light" href="indikaattorit.html#vaestorakenne">Tutustu indikaattoreihin</a></div>
+      </div></div></section>
+  <main><div class="wrap" id="content"><p class="loading">Ladataan tietoja…</p></div></main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pptxgenjs@3.12.0/dist/pptxgen.bundle.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/analysis.js"></script>
+  <script src="assets/js/charts.js"></script>
+  <script src="assets/js/export-xlsx.js"></script>
+  <script src="assets/js/export-pptx.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script>HY.start('home');</script>
+</body>
+</html>

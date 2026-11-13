@@ -1,0 +1,15 @@
+{
+  "updated": "2026-11-13T12:40:44.544Z",
+  "sources": {
+    "sotkanet": {
+      "name": "Sotkanet (THL)",
+      "fetched": "2026-11-13T12:40:44.848Z",
+      "ok": true
+    },
+    "vaesto": {
+      "name": "Tilastokeskus 11re",
+      "fetched": "2026-11-13T12:40:48.202Z",
+      "ok": true
+    }
+  }
+}
